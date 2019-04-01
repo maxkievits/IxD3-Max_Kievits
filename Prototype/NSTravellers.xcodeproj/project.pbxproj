@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50928B3422317600007DCD0F /* SpoorkaartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50928B3322317600007DCD0F /* SpoorkaartViewController.m */; };
+		50928B3722319E5F007DCD0F /* SpoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50928B3622319E5F007DCD0F /* SpoorViewController.m */; };
+		50B20871222FFAF4001C0C2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B20870222FFAF4001C0C2F /* AppDelegate.m */; };
+		50B20874222FFAF4001C0C2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B20873222FFAF4001C0C2F /* ViewController.m */; };
+		50B20877222FFAF4001C0C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B20875222FFAF4001C0C2F /* Main.storyboard */; };
+		50B20879222FFAF5001C0C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B20878222FFAF5001C0C2F /* Assets.xcassets */; };
+		50B2087C222FFAF5001C0C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B2087A222FFAF5001C0C2F /* LaunchScreen.storyboard */; };
+		50B2087F222FFAF5001C0C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2087E222FFAF5001C0C2F /* main.m */; };
+		50B20889222FFAF5001C0C2F /* NSTravellersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B20888222FFAF5001C0C2F /* NSTravellersTests.m */; };
+		50B20894222FFAF5001C0C2F /* NSTravellersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B20893222FFAF5001C0C2F /* NSTravellersUITests.m */; };
+		50B208CE222FFBBD001C0C2F /* GeoJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B208CC222FFBBD001C0C2F /* GeoJSONSerialization.m */; };
+		50B208D0222FFC3D001C0C2F /* spoorkaart.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 50B208CF222FFC3D001C0C2F /* spoorkaart.geojson */; };
+		50D34B7A2242584300DB0617 /* FinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D34B792242584300DB0617 /* FinalViewController.m */; };
+		50D849672242D676003B0A91 /* ns.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50D849662242D676003B0A91 /* ns.mp3 */; };
+		50D849692242D6CF003B0A91 /* ns.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50D849682242D6CF003B0A91 /* ns.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B20885222FFAF5001C0C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B20864222FFAF4001C0C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B2086B222FFAF4001C0C2F;
+			remoteInfo = NSTravellers;
+		};
+		50B20890222FFAF5001C0C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B20864222FFAF4001C0C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B2086B222FFAF4001C0C2F;
+			remoteInfo = NSTravellers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50928B3222317600007DCD0F /* SpoorkaartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpoorkaartViewController.h; sourceTree = "<group>"; };
+		50928B3322317600007DCD0F /* SpoorkaartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpoorkaartViewController.m; sourceTree = "<group>"; };
+		50928B3522319E5F007DCD0F /* SpoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpoorViewController.h; sourceTree = "<group>"; };
+		50928B3622319E5F007DCD0F /* SpoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpoorViewController.m; sourceTree = "<group>"; };
+		50B2086C222FFAF4001C0C2F /* NSTravellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTravellers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B2086F222FFAF4001C0C2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50B20870222FFAF4001C0C2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50B20872222FFAF4001C0C2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50B20873222FFAF4001C0C2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50B20876222FFAF4001C0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50B20878222FFAF5001C0C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B2087B222FFAF5001C0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50B2087D222FFAF5001C0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B2087E222FFAF5001C0C2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50B20884222FFAF5001C0C2F /* NSTravellersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTravellersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B20888222FFAF5001C0C2F /* NSTravellersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTravellersTests.m; sourceTree = "<group>"; };
+		50B2088A222FFAF5001C0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B2088F222FFAF5001C0C2F /* NSTravellersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTravellersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B20893222FFAF5001C0C2F /* NSTravellersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTravellersUITests.m; sourceTree = "<group>"; };
+		50B20895222FFAF5001C0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B208CC222FFBBD001C0C2F /* GeoJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONSerialization.m; sourceTree = "<group>"; };
+		50B208CD222FFBBD001C0C2F /* GeoJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONSerialization.h; sourceTree = "<group>"; };
+		50B208CF222FFC3D001C0C2F /* spoorkaart.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spoorkaart.geojson; sourceTree = "<group>"; };
+		50D34B782242584300DB0617 /* FinalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalViewController.h; sourceTree = "<group>"; };
+		50D34B792242584300DB0617 /* FinalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalViewController.m; sourceTree = "<group>"; };
+		50D849662242D676003B0A91 /* ns.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ns.mp3; sourceTree = "<group>"; };
+		50D849682242D6CF003B0A91 /* ns.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ns.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B20869222FFAF4001C0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B20881222FFAF5001C0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B2088C222FFAF5001C0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B20863222FFAF4001C0C2F = {
+			isa = PBXGroup;
+			children = (
+				50D849682242D6CF003B0A91 /* ns.wav */,
+				50B2086E222FFAF4001C0C2F /* NSTravellers */,
+				50B20887222FFAF5001C0C2F /* NSTravellersTests */,
+				50B20892222FFAF5001C0C2F /* NSTravellersUITests */,
+				50B2086D222FFAF4001C0C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50B2086D222FFAF4001C0C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B2086C222FFAF4001C0C2F /* NSTravellers.app */,
+				50B20884222FFAF5001C0C2F /* NSTravellersTests.xctest */,
+				50B2088F222FFAF5001C0C2F /* NSTravellersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B2086E222FFAF4001C0C2F /* NSTravellers */ = {
+			isa = PBXGroup;
+			children = (
+				50B208CD222FFBBD001C0C2F /* GeoJSONSerialization.h */,
+				50B208CC222FFBBD001C0C2F /* GeoJSONSerialization.m */,
+				50B2086F222FFAF4001C0C2F /* AppDelegate.h */,
+				50B20870222FFAF4001C0C2F /* AppDelegate.m */,
+				50B20872222FFAF4001C0C2F /* ViewController.h */,
+				50B20873222FFAF4001C0C2F /* ViewController.m */,
+				50928B3222317600007DCD0F /* SpoorkaartViewController.h */,
+				50928B3322317600007DCD0F /* SpoorkaartViewController.m */,
+				50928B3522319E5F007DCD0F /* SpoorViewController.h */,
+				50928B3622319E5F007DCD0F /* SpoorViewController.m */,
+				50B20875222FFAF4001C0C2F /* Main.storyboard */,
+				50D34B782242584300DB0617 /* FinalViewController.h */,
+				50D34B792242584300DB0617 /* FinalViewController.m */,
+				50B20878222FFAF5001C0C2F /* Assets.xcassets */,
+				50B208CF222FFC3D001C0C2F /* spoorkaart.geojson */,
+				50B2087A222FFAF5001C0C2F /* LaunchScreen.storyboard */,
+				50B2087D222FFAF5001C0C2F /* Info.plist */,
+				50B2087E222FFAF5001C0C2F /* main.m */,
+				50D849662242D676003B0A91 /* ns.mp3 */,
+			);
+			path = NSTravellers;
+			sourceTree = "<group>";
+		};
+		50B20887222FFAF5001C0C2F /* NSTravellersTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B20888222FFAF5001C0C2F /* NSTravellersTests.m */,
+				50B2088A222FFAF5001C0C2F /* Info.plist */,
+			);
+			path = NSTravellersTests;
+			sourceTree = "<group>";
+		};
+		50B20892222FFAF5001C0C2F /* NSTravellersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50B20893222FFAF5001C0C2F /* NSTravellersUITests.m */,
+				50B20895222FFAF5001C0C2F /* Info.plist */,
+			);
+			path = NSTravellersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B2086B222FFAF4001C0C2F /* NSTravellers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B20898222FFAF5001C0C2F /* Build configuration list for PBXNativeTarget "NSTravellers" */;
+			buildPhases = (
+				50B20868222FFAF4001C0C2F /* Sources */,
+				50B20869222FFAF4001C0C2F /* Frameworks */,
+				50B2086A222FFAF4001C0C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTravellers;
+			productName = NSTravellers;
+			productReference = 50B2086C222FFAF4001C0C2F /* NSTravellers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50B20883222FFAF5001C0C2F /* NSTravellersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B2089B222FFAF5001C0C2F /* Build configuration list for PBXNativeTarget "NSTravellersTests" */;
+			buildPhases = (
+				50B20880222FFAF5001C0C2F /* Sources */,
+				50B20881222FFAF5001C0C2F /* Frameworks */,
+				50B20882222FFAF5001C0C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B20886222FFAF5001C0C2F /* PBXTargetDependency */,
+			);
+			name = NSTravellersTests;
+			productName = NSTravellersTests;
+			productReference = 50B20884222FFAF5001C0C2F /* NSTravellersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50B2088E222FFAF5001C0C2F /* NSTravellersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B2089E222FFAF5001C0C2F /* Build configuration list for PBXNativeTarget "NSTravellersUITests" */;
+			buildPhases = (
+				50B2088B222FFAF5001C0C2F /* Sources */,
+				50B2088C222FFAF5001C0C2F /* Frameworks */,
+				50B2088D222FFAF5001C0C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B20891222FFAF5001C0C2F /* PBXTargetDependency */,
+			);
+			name = NSTravellersUITests;
+			productName = NSTravellersUITests;
+			productReference = 50B2088F222FFAF5001C0C2F /* NSTravellersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B20864222FFAF4001C0C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "MaxMedia-Apps";
+				TargetAttributes = {
+					50B2086B222FFAF4001C0C2F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					50B20883222FFAF5001C0C2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50B2086B222FFAF4001C0C2F;
+					};
+					50B2088E222FFAF5001C0C2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50B2086B222FFAF4001C0C2F;
+					};
+				};
+			};
+			buildConfigurationList = 50B20867222FFAF4001C0C2F /* Build configuration list for PBXProject "NSTravellers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B20863222FFAF4001C0C2F;
+			productRefGroup = 50B2086D222FFAF4001C0C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B2086B222FFAF4001C0C2F /* NSTravellers */,
+				50B20883222FFAF5001C0C2F /* NSTravellersTests */,
+				50B2088E222FFAF5001C0C2F /* NSTravellersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B2086A222FFAF4001C0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D849692242D6CF003B0A91 /* ns.wav in Resources */,
+				50D849672242D676003B0A91 /* ns.mp3 in Resources */,
+				50B2087C222FFAF5001C0C2F /* LaunchScreen.storyboard in Resources */,
+				50B20879222FFAF5001C0C2F /* Assets.xcassets in Resources */,
+				50B20877222FFAF4001C0C2F /* Main.storyboard in Resources */,
+				50B208D0222FFC3D001C0C2F /* spoorkaart.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B20882222FFAF5001C0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B2088D222FFAF5001C0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B20868222FFAF4001C0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B208CE222FFBBD001C0C2F /* GeoJSONSerialization.m in Sources */,
+				50928B3422317600007DCD0F /* SpoorkaartViewController.m in Sources */,
+				50928B3722319E5F007DCD0F /* SpoorViewController.m in Sources */,
+				50B20874222FFAF4001C0C2F /* ViewController.m in Sources */,
+				50B2087F222FFAF5001C0C2F /* main.m in Sources */,
+				50B20871222FFAF4001C0C2F /* AppDelegate.m in Sources */,
+				50D34B7A2242584300DB0617 /* FinalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B20880222FFAF5001C0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B20889222FFAF5001C0C2F /* NSTravellersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B2088B222FFAF5001C0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B20894222FFAF5001C0C2F /* NSTravellersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B20886222FFAF5001C0C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B2086B222FFAF4001C0C2F /* NSTravellers */;
+			targetProxy = 50B20885222FFAF5001C0C2F /* PBXContainerItemProxy */;
+		};
+		50B20891222FFAF5001C0C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B2086B222FFAF4001C0C2F /* NSTravellers */;
+			targetProxy = 50B20890222FFAF5001C0C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50B20875222FFAF4001C0C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B20876222FFAF4001C0C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50B2087A222FFAF5001C0C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B2087B222FFAF5001C0C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B20896222FFAF5001C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50B20897222FFAF5001C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B20899222FFAF5001C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWDJWK3WF6;
+				INFOPLIST_FILE = NSTravellers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.maxmedia-apps.NSTravellers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B2089A222FFAF5001C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWDJWK3WF6;
+				INFOPLIST_FILE = NSTravellers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.maxmedia-apps.NSTravellers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50B2089C222FFAF5001C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWDJWK3WF6;
+				INFOPLIST_FILE = NSTravellersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.maxmedia-apps.NSTravellersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTravellers.app/NSTravellers";
+			};
+			name = Debug;
+		};
+		50B2089D222FFAF5001C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWDJWK3WF6;
+				INFOPLIST_FILE = NSTravellersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.maxmedia-apps.NSTravellersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTravellers.app/NSTravellers";
+			};
+			name = Release;
+		};
+		50B2089F222FFAF5001C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWDJWK3WF6;
+				INFOPLIST_FILE = NSTravellersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.maxmedia-apps.NSTravellersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSTravellers;
+			};
+			name = Debug;
+		};
+		50B208A0222FFAF5001C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWDJWK3WF6;
+				INFOPLIST_FILE = NSTravellersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.maxmedia-apps.NSTravellersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSTravellers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B20867222FFAF4001C0C2F /* Build configuration list for PBXProject "NSTravellers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B20896222FFAF5001C0C2F /* Debug */,
+				50B20897222FFAF5001C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B20898222FFAF5001C0C2F /* Build configuration list for PBXNativeTarget "NSTravellers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B20899222FFAF5001C0C2F /* Debug */,
+				50B2089A222FFAF5001C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B2089B222FFAF5001C0C2F /* Build configuration list for PBXNativeTarget "NSTravellersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B2089C222FFAF5001C0C2F /* Debug */,
+				50B2089D222FFAF5001C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B2089E222FFAF5001C0C2F /* Build configuration list for PBXNativeTarget "NSTravellersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B2089F222FFAF5001C0C2F /* Debug */,
+				50B208A0222FFAF5001C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B20864222FFAF4001C0C2F /* Project object */;
+}
